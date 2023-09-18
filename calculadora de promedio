@@ -1,0 +1,17 @@
+Algoritmo 	Descuento
+	Definir precioOriginal, porcentajeDescuento, montoDescuento, precioFinal Como Real
+	
+	Escribir "Ingrese el precio original:"
+	Leer precioOriginal
+	
+	Escribir "Ingrese el porcentaje de descuento:"
+	Leer porcentajeDescuento
+	
+	montoDescuento <- (precioOriginal * porcentajeDescuento) / 100
+	precioFinal <- precioOriginal - montoDescuento
+	
+	Escribir "Precio original:", precioOriginal
+	Escribir "Porcentaje de descuento:", porcentajeDescuento
+	Escribir "Monto de descuento:", montoDescuento
+	Escribir "Precio final:", precioFinal
+FinAlgoritmo
